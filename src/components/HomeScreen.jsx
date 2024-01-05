@@ -1,11 +1,10 @@
-import './App.css';
 import { useState } from 'react';
-import Header from './components/Header';
-import Leftsidebar from './components/Leftsidebar';
-import Rightsidebar from './components/Rightsidebar';
-import Mallbox from './components/Mallbox';
+import Header from './Header';
+import Leftsidebar from './Leftsidebar';
+import Rightsidebar from './Rightsidebar';
+import Mallbox from './Mallbox';
 
-function App() {
+function HomeScreen() {
   const [state1, setstate1] = useState(false)
   const [state2, setstate2] = useState(false)
   const [state3, setstate3] = useState(false)
@@ -39,4 +38,4 @@ function App() {
     </div>
   );
 }
-export default App;
+export default HomeScreen;
